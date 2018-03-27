@@ -232,9 +232,9 @@ check-typos:
 			$(top_srcdir)/ReleaseNotes \
 			$(top_srcdir)/LICENSE); \
 	else \
-		echo "Tor uses misspell to check for typos"; \
+		echo "Tor can use misspell to check for typos."; \
 		echo "It seems that you don't have misspell installed."; \
-		echo "Install the latest version of misspell from here https://github.com/client9/misspell#install"; \
+		echo "You can install the latest version of misspell here: https://github.com/client9/misspell#install"; \
 	fi
 
 .PHONY: check-changes
